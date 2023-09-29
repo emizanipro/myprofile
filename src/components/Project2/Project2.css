@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 .ProjectContainer2 {
@@ -147,4 +148,155 @@
         font-weight: 600;
     }
   }
+=======
+
+
+.ProjectContainer2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center; 
+    margin-top: 0;
+    padding: 20px; 
+  }
+
+  /* CELULAR */
+@media (max-width: 768px) {
+  .ProjectContainer2 h4 {
+    color: #6f6f6f;
+    font-weight: 700;
+    font-size: 1rem; 
+    text-align: center; 
+  }
+
+  
+  .ProjectContainer2 h1 {
+    color: #333;
+    font-size: 1.8rem;
+    text-align: center; 
+  }
+
+  .ProjectContainer2 a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #3d28fe;
+  }
+  
+  .ProjectContainer2 img {
+    display: block;
+    max-width: 100%;
+    height: auto; 
+    image-rendering: pixelated; 
+    border-radius: 1%;
+    margin-top: 1rem;
+  }
+
+  
+  .ProjectContainer2 h5 {
+    color: #333;
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  .ProjectContainer2 p {
+    color: #6f6f6f;
+    font-weight: 450;
+    font-size: 1.1rem;
+    text-align: left;
+    margin: 2rem 0;
+  }
+  
+  .ProjectContainer2 h6 {
+    color: #999;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: left;
+    margin: 2rem 0;
+  }
+  
+  b {
+    color: #333;
+    font-weight: 600;
+  }
+}
+  
+  
+
+
+
+
+/* PANTALLA GRANDE */
+@media (min-width: 768px) {
+    .ProjectContainer2 {
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      flex-direction: column; 
+      text-align: center; 
+      margin-top: 0;
+      background-color: rgb(196, 238, 255);
+      
+      
+    }
+  
+    .ProjectContainer2 h4 {
+        color: #6f6f6f;
+      font-weight: 700;
+    }
+  
+    .ProjectContainer2 h1 {
+      color: #333;
+      font-size: 1.9em; 
+    }
+
+    .ProjectContainer2 a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: #3d28fe;
+    }
+  
+    .ProjectContainer2 img {
+      display: block;
+      width: 1000px; 
+      height: 600px;
+      margin-left: auto;
+      margin-right: auto; 
+      image-rendering: pixelated; 
+      border-radius: 1%;
+    }
+  
+    .ProjectContainer2 h5 {
+      color: #333;
+      font-size: 1.4em; 
+      margin: 2rem 19rem;
+      text-align: left;
+      font-weight: 600;
+    }
+  
+    .ProjectContainer2 p {
+      color: #6f6f6f;
+      font-weight: 450;
+      font-size: 1.3rem;
+      margin: 2rem 19rem;
+      text-align: left;
+      margin-top: 0%;
+    }
+  
+    .ProjectContainer2 h6 {
+      color: #999;
+      font-weight: 400;
+      font-size: 1.3rem;
+      margin-top: 0;
+      text-align: left;
+      margin: 2rem 19rem;
+    }
+    
+    b{
+        color: #333;
+        font-weight: 600;
+    }
+  }
+>>>>>>> 3adc0bf91cf645e18809c4f4423a93c3205ce0aa
   

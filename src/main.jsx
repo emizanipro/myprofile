@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
-import Navbar from './components/Navbar/Navbar.jsx';
-import FooterContainer from './components/Footer/Footer.jsx';
-import AboutContainer from './components/About/About.jsx';
-import ProjecContainer from './components/Project1/Project1.jsx';
-import ProjecContainer2 from './components/Project2/Project2.jsx';
-import AllProjects from './components/AllProjects/AllProjects.jsx';
-import NewProjects from './components/NewProjects/NewProjects.jsx';
+import Navbar from './components/Navbar/Navbar';
+import FooterContainer from './components/Footer/Footer';
+import AboutContainer from './components/About/About';
+import ProjecContainer from './components/Project1/Project1';
+import ProjecContainer2 from './components/Project2/Project2';
+import AllProjects from './components/AllProjects/AllProjects';
+import NewProjects from './components/NewProjects/NewProjects';
 
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';

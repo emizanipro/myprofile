@@ -4,8 +4,8 @@ const port = process.env.PORT || 3000;
 
 // Middleware para configurar los encabezados HTTP
 app.use((req, res, next) => {
-  // Configuración de encabezados HTTP para permitir todo
-  res.setHeader('Permissions-Policy', 'interest-cohort=()');
+  // No configurar la política 'interest-cohort'
+  // res.setHeader('Permissions-Policy', 'interest-cohort=()');
 
   // Continuar con la solicitud
   next();

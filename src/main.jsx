@@ -10,8 +10,7 @@ import ProjecContainer2 from './components/Project2/Project2';
 import AllProjects from './components/AllProjects/AllProjects';
 import NewProjects from './components/NewProjects/NewProjects';
 
-
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Route, Routes } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
@@ -66,6 +65,14 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router} caseSensitive>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/about-me" element={<AboutContainer />} />
+        <Route path="/project-1" element={<ProjecContainer />} />
+        <Route path="/project-2" element={<ProjecContainer2 />} />
+        <Route path="/all-projects" element={<AllProjects />} />
+      </Routes>
+    </RouterProvider>
   </React.StrictMode>,
 );

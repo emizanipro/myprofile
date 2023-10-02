@@ -8,6 +8,7 @@
     "dev": "vite",
     "predeploy": "npm run dist",
     "deploy":"gh-pages -d dist",
+    "dist": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },

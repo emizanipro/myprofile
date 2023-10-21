@@ -9,7 +9,6 @@
     "predeploy": "npm run dist",
     "deploy": "npm run build && gh-pages -d dist",
 
-    "deploy-000webhost": "ftp-deploy --server ftp.000webhost.com --user your-username --password your-password --remote-dir /public_html",
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vite"

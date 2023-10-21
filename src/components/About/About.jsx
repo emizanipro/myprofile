@@ -1,4 +1,4 @@
-
+import React from 'react';
 import "./About.css";
 
 
@@ -8,11 +8,12 @@ function About() {
     <div className="AboutContiner">
 
         <div className="About-1">
-            <h4>A WEB DEVELOPER</h4>
-            <h1>
-                Full Stack Developer from Argentina. Passionate about 
-                Creation of intuitive user interfaces and experiences.
-            </h1>
+              <h4>DESARROLLO WEB</h4>
+              <h1>
+                  Desarrollador Full Stack de Argentina. Apasionado por l
+                  a creación de interfaces y experiencias de usuario 
+                  intuitivas.
+              </h1>
         </div>
 
         <div className="About-2">
@@ -26,17 +27,19 @@ function About() {
             </div>
 
             <div className="About-info-2">
-                    <h3>Interests</h3>
-                    <p>User-friendly and attractive Website Design Systems.</p>
-                    <p>Mobile Development (React Native).</p>
-                    <p>Creative Animations.</p>
-                    <p>E-commerce for Small and Medium-sized Enterprises (SMEs).</p>
+                  <h3>Intereses</h3>
+                  <p>Sistemas de diseño web amigables y atractivos.</p>
+                  <p>Desarrollo móvil (React Native).</p>
+                  <p>Animaciones creativas.</p>
+                  <p>Comercio electrónico para pequeñas y medianas empresas (PYMEs).</p>
+
             </div>
 
             <div className="About-info-3">
-                    <h3>Pastime</h3>
-                    <p>Create and collaborate on websites related to Sports and Health.</p>
-                    <p>Projects</p>
+                  <h3>Pasatiempo</h3>
+                  <p>Crear y colaborar en sitios web relacionados con Deportes y Salud.</p>
+                  <p>Proyectos</p>
+                  <p>Entrenar</p>
             </div>
         </div>
         

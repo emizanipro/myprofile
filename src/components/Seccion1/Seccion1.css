@@ -6,7 +6,7 @@
 }
 
 /* CELULAR */
-@media (max-width: 768px) {
+@media (max-width: 1000px)  {
   .img{
     background-image: url(/src/components/img/fondo-web-1.jpeg); 
     height: 500px;
@@ -59,8 +59,6 @@
   }
 
 
-
-
   .my-info {
     display: flex;
     justify-content: center;
@@ -68,11 +66,11 @@
     height: 100vh;
     margin: 0 auto; 
     padding: 20px;
-    margin-top: 180px;
   }
   
   .my-info-1 {
     text-align: center;
+    margin-top: 6rem;
   }
 
   .my-info-1 h3{
@@ -93,13 +91,11 @@
 
 
 
-
-  
   
   .my-list ul {
     list-style: none;
     padding: 0;
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
     flex-wrap: wrap; 
   }
@@ -113,22 +109,22 @@
   }
   
   .my-list span {
-    font-size: 1.7rem;
+    font-size: 1rem;
     
   }
   
   .my-list h4 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   
   .my-list img {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     
   }
 
   .my-list p{
-    font-size: 1.2rem;
+    font-size: .8rem;
     margin-top: -30px;
     color: #828282;
     font-weight: 400;
@@ -141,7 +137,7 @@
 
 
 /* PANTALLA GRANDE */
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .img {
     height: 650px;
     background-image: url(/src/components/img/fondo-web-2.jpg);

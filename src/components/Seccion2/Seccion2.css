@@ -19,11 +19,13 @@
 
 
 /* CELULAR */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+
+  
 
   .project-title {
     width: 80%;
-    margin: 380px auto;
+    margin: 200px auto;
     margin-bottom: 20px;
     transform: translateY(-50%); 
     text-align: center; 
@@ -80,7 +82,7 @@
     display: block;
     margin: 30px auto;
     image-rendering: pixelated;
-
+    
   }
   
   .project-1 h4,
@@ -121,14 +123,16 @@
 
 
 /* PANTALLA GRANDE */
-  @media (min-width: 768px) {
+  @media (min-width: 1000px) {
+
+    
 
    
   .project-title {
   
     width: 100%;
     margin: 0 auto; 
-    margin-top: -100px;
+    margin-top: -180px;
     background-color: #fff;
     transform: translateY(-50%); 
     text-align: center; 
@@ -148,7 +152,6 @@
   .project-container {
     display: block;
     width: 90%;
-    
     margin: 0 auto; 
     margin-top: -30px; 
     overflow: hidden; /* Evita el colapso de margen */
@@ -160,7 +163,7 @@
     float: left; 
     margin: 10px; 
     border-radius: 2%;
-    
+    height: 700px;
     
   }
   

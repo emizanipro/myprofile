@@ -12,7 +12,10 @@
 
 
 /* CELULAR */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+
+
+
   .ProjectContainer h4 {
     color: #6f6f6f;
     font-weight: 700;
@@ -75,7 +78,7 @@
 
 
 /* PANTALLA GRANDE */
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
 
     .ProjectContainer {
       background-color: #e8e8e8;

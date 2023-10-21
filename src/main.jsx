@@ -1,5 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
+
+
 import App from './App';
 import './index.css';
 import Navbar from './components/Navbar/Navbar';
@@ -10,7 +13,24 @@ import ProjecContainer2 from './components/Project2/Project2';
 import AllProjects from './components/AllProjects/AllProjects';
 import NewProjects from './components/NewProjects/NewProjects';
 
-import { createBrowserRouter, RouterProvider, Route, Routes } from 'react-router-dom';
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import Project1 from './components/Project1/Project1';
+import Project2 from './components/Project2/Project2';
+import About from './components/About/About';
+
+// Esta función te ayudará a mantener la ruta actual en sessionStorage.
+function useSessionStorageRouting() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const storedRoute = sessionStorage.getItem('storedRoute');
+    if (storedRoute) {
+      navigate(storedRoute);
+    }
+  }, [navigate]);
+}
 
 const router = createBrowserRouter([
   {
@@ -48,31 +68,36 @@ const router = createBrowserRouter([
     path : "/all-projects",
     element : 
     <div>
-        <Navbar/>
-        <div className="title-card">
-            <h3>Selected Projects</h3>
-        </div>
+        <Navbar/>  
         <AllProjects/>
-
-        <div className="title-card">
-            <h3>Coming Soon</h3>
-        </div>
         <NewProjects/>
         <FooterContainer/>
     </div>
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+// Utiliza la nueva API de React para renderizar la aplicación
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <RouterProvider router={router} caseSensitive>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/about-me" element={<AboutContainer />} />
-        <Route path="/project-1" element={<ProjecContainer />} />
-        <Route path="/project-2" element={<ProjecContainer2 />} />
-        <Route path="/all-projects" element={<AllProjects />} />
-      </Routes>
-    </RouterProvider>
-  </React.StrictMode>,
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/about-me" element={<About />} />
+          <Route path="/project-1" element={<Project1 />} />
+          <Route path="/project-2" element={<Project2 />} />
+          <Route path="/all-projects" element={<AllProjects />} />
+        </Routes>
+        
+        <FooterContainer />
+      </div>
+    </Router>
+  </React.StrictMode>
 );
+
+
+
+
+

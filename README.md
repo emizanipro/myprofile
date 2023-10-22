@@ -6,9 +6,10 @@ Este proyecto utiliza:
 - **JavaScript**: El lenguaje de programación principal.
 - **CSS**: Para estilar y dar formato a la aplicación.
 
-- Perfil de LinkedIn :[ https://www.linkedin.com/in/emizanipro/ ](https://www.linkedin.com/in/emizanipro/)
-- [Sitio Web Original](https://emizanopro.000webhostapp.com/)
-- [Sitio Web Github](https://emizanipro.github.io/myprofile/)
+- Perfil de LinkedIn para contactarme :[ https://www.linkedin.com/in/emizanipro/](https://www.linkedin.com/in/emizanipro/)
+- URL Original del Portafolio: [ https://emizanopro.000webhostapp.com/](https://emizanopro.000webhostapp.com/)
+- URL de Github [https://emizanipro.github.io/myprofile/](https://emizanipro.github.io/myprofile/)
+  
 
 
 

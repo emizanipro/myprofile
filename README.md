@@ -20,9 +20,9 @@ Este proyecto utiliza:
 <br>
 
 
-- [Perfil de LinkedIn para contactarme](https://www.linkedin.com/in/emizanipro/){:target="_blank"}
-- [URL Original del Portafolio](https://emizanopro.000webhostapp.com/){:target="_blank"}
-- [URL de Github](https://emizanipro.github.io/myprofile/){:target="_blank"}
+- Perfil de LinkedIn para contactarme: <a href="https://www.linkedin.com/in/emizanipro/" target="_blank">https://www.linkedin.com/in/emizanipro/</a>
+- URL Original del Portafolio: <a href="https://emizanopro.000webhostapp.com/" target="_blank">https://emizanopro.000webhostapp.com/</a>
+- URL de Github: <a href="https://emizanipro.github.io/myprofile/" target="_blank">https://emizanipro.github.io/myprofile/</a>
 
 
 

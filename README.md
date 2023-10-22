@@ -15,10 +15,15 @@ Este proyecto utiliza:
 </a>
 
 
+
+
+
+
 - Perfil de LinkedIn para contactarme :[ https://www.linkedin.com/in/emizanipro/](https://www.linkedin.com/in/emizanipro/)
 - URL Original del Portafolio: [ https://emizanopro.000webhostapp.com/](https://emizanopro.000webhostapp.com/)
 - URL de Github [https://emizanipro.github.io/myprofile/](https://emizanipro.github.io/myprofile/)
-  
+
+
 
 
 

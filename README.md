@@ -21,7 +21,7 @@ Este proyecto utiliza:
 
 
 - Perfil de LinkedIn para contactarme: <a href="https://www.linkedin.com/in/emizanipro/" target="_blank">https://www.linkedin.com/in/emizanipro/</a>
-- URL Original del Portafolio: <a href="https://emizanopro.000webhostapp.com/" target="_blank">https://emizanopro.000webhostapp.com/</a>
+- URL Original del Proyecto : <a href="https://mendozacannabis.000webhostapp.com/" target="_blank">https://mendozacannabis.000webhostapp.com/</a>
 - URL de Github: <a href="https://emizanipro.github.io/myprofile/" target="_blank">https://emizanipro.github.io/myprofile/</a>
 
 
